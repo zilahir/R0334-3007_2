@@ -1,0 +1,7 @@
+{
+  "name": "R0334-3007",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
