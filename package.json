@@ -1,7 +1,11 @@
 {
-  "name": "R0334-3007",
+  "name": "r0334-3007",
   "version": "0.0.1",
   "private": true,
+  "author": {
+    "email": "zilahi@gmail.com",
+    "name": "Richard Zilahi"
+  },
   "dependencies": {
     "@capacitor/app": "4.0.1",
     "@capacitor/core": "4.1.0",
@@ -41,6 +45,7 @@
     "workbox-streams": "^5.1.4"
   },
   "scripts": {
+    "start:ionic-dev": "ionic serve",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --transformIgnorePatterns 'node_modules/(?!(@ionic/react|@ionic/react-router|@ionic/core|@stencil/core|ionicons)/)'",
