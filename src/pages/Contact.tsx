@@ -2,24 +2,24 @@ import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/rea
 import ExploreContainer from '../components/ExploreContainer';
 import './Tab2.css';
 
-const Tab2: React.FC = () => {
+const Contact: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>About</IonTitle>
+          <IonTitle>Contact</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">About</IonTitle>
+            <IonTitle size="large">Contact</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <ExploreContainer name="About page" />
+        <ExploreContainer name="Contact page" />
       </IonContent>
     </IonPage>
   );
 };
 
-export default Tab2;
+export default Contact;

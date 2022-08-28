@@ -10,6 +10,7 @@
     "@capacitor/app": "4.0.1",
     "@capacitor/core": "4.1.0",
     "@capacitor/haptics": "4.0.1",
+    "@capacitor/ios": "4.1.0",
     "@capacitor/keyboard": "4.0.1",
     "@capacitor/status-bar": "4.0.1",
     "@ionic/react": "^6.0.0",
@@ -46,6 +47,8 @@
   },
   "scripts": {
     "start:ionic-dev": "ionic serve",
+    "start:ionic-lab": "ionic serve --lab",
+    "start:ionic-ios": "ionic capacitor run ios -l --external",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --transformIgnorePatterns 'node_modules/(?!(@ionic/react|@ionic/react-router|@ionic/core|@stencil/core|ionicons)/)'",
